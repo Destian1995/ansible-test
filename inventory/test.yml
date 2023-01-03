@@ -1,5 +1,5 @@
 ---
-grafana-server:
+grafana:
   hosts:
-    grafana-server:
+    grafana:
       ansible_host: 10.0.2.15
