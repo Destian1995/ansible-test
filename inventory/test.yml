@@ -1,5 +1,0 @@
----
-grafana:
-  hosts:
-    grafana:
-      ansible_host: 10.0.2.15
