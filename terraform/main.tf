@@ -45,7 +45,7 @@ resource "yandex_compute_instance" "node" {
 }
 
 resource "local_file" "inventory" {
-    filename = "./hosts.yaml"
+    filename = "./ansible/inventory/hosts.yaml"
     content     = <<-EOF
     %{ for instance in yandex_compute_instance.node }
     ${instance.metadata.type}:

@@ -1,8 +1,0 @@
----
-grafana:
-  hosts:
-    grafana:
-      ansible_host: <somehost>
-  vars:
-    ansible_connection_type: paramiko
-    ansible_user: <someuser>
