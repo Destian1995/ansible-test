@@ -1,5 +1,5 @@
 ---
-geerlingguy.mysql:
+grafana-server:
   hosts:
-    geerlingguy.mysql:
+    grafana-server:
       ansible_host: 10.0.2.15
