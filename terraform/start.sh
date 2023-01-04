@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+terraform init
 terraform apply -auto-approve 
 mv hosts.yaml ansible/inventory/
 cd ../ansible/
